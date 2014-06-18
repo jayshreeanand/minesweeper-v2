@@ -1,0 +1,74 @@
+
+#game-board{
+padding-left: 20px;
+}
+
+#game-board .row span{  
+    width: 30px;
+    height: 30px;
+    float:left;
+    text-align: center;
+    font-size: 23px;
+    font-style: bold;
+    border-width: 1px;
+    border-color: #DAE6E6;
+    border-style: solid;
+
+}
+
+.open {
+    background-color: yellow;
+    color: black;
+}
+
+.closed{
+    background-color: gray;
+    border-color: #DAE6E6;
+}
+
+.blast{
+    background-color: red;
+    color:black;
+}
+
+.flag{
+
+    background-color: gray;
+    color:red;
+}
+
+.cross{
+
+    background-color: gray;
+    color:red;
+}
+
+
+.question{
+    background-color: gray;
+    color:blue;
+    font-weight: bold;
+}
+
+
+.one{
+    background-color:#CCCCCC;
+
+    color:blue;
+}
+
+.two{
+    background-color:#CCCCCC;
+    color: green;
+
+}
+
+.number{
+    background-color:#CCCCCC;
+    color: red;
+}
+
+.hollow{
+    background-color:#CCCCCC;
+    color: black;
+}
